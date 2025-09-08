@@ -1,0 +1,60 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+.card-header {
+    border-radius: 10px 10px 0 0 !important;
+}
+
+.table th {
+    background-color: #f1f1f1;
+}
+
+footer {
+    margin-top: auto;
+}
+
+.badge-status {
+    font-size: 0.85em;
+    padding: 0.35em 0.65em;
+}
+
+#update-indicator {
+    font-size: 0.8rem;
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(13, 110, 253, 0.05);
+}
+
+.command-ADELANTE {
+    border-left: 4px solid #198754;
+}
+
+.command-ATRAS {
+    border-left: 4px solid #fd7e14;
+}
+
+.command-DETENER {
+    border-left: 4px solid #6c757d;
+}
+
+.command-GIRO {
+    border-left: 4px solid #6f42c1;
+}
+
+.realtime-pulse {
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
